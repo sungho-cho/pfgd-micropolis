@@ -9,13 +9,13 @@
 package micropolisj.engine;
 
 /**
- * Implements a hero sprite.
+ * Implements a monster hunter sprite.
  */
 public class MonsterHunterSprite extends HeroSprite
 {
 	public MonsterHunterSprite(Micropolis engine, int xpos, int ypos)
 	{
-		super(engine, xpos, ypos);
+		super(engine, xpos, ypos, SpriteKind.MONSTER_HUNTER);
 	}
 
 	@Override
